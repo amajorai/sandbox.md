@@ -2,7 +2,7 @@
 
 Self-hosted cloud sandbox environment for Claude Code. One interview, one clean pass: choose your backend (Daytona, Docker+Bun, or Firecracker), your use case (ephemeral exec or long-lived workspaces), your templates, and your resource limits — then spawn isolated sandboxes from chat.
 
-[![Status](https://shieldcn.dev/badge/status-beta-blue.svg)](https://github.com/amajorai/sandbox.md)
+[![Status](https://shieldcn.dev/badge/status-experimental-orange.svg)](https://github.com/amajorai/sandbox.md)
 [![Stars](https://shieldcn.dev/github/stars/amajorai/sandbox.md.svg)](https://github.com/amajorai/sandbox.md)
 [![Forks](https://shieldcn.dev/github/forks/amajorai/sandbox.md.svg)](https://github.com/amajorai/sandbox.md)
 [![License](https://shieldcn.dev/github/license/amajorai/sandbox.md.svg)](https://github.com/amajorai/sandbox.md)
