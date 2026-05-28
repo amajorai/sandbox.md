@@ -1,0 +1,11 @@
+{
+  "name": "sandboxmd",
+  "description": "Self-hosted cloud sandbox environment. Choose Daytona, Docker+Bun, or Firecracker as the backend. Spawn ephemeral exec sandboxes or long-lived dev workspaces on your own server. Integrates with Claude Code via MCP.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jia Wei Ng"
+  },
+  "repository": "https://github.com/amajorai/sandbox.md",
+  "license": "MIT",
+  "keywords": ["sandbox", "cloud", "self-hosted", "docker", "daytona", "firecracker", "mcp", "execution"]
+}
