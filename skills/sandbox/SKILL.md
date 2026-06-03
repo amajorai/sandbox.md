@@ -742,17 +742,17 @@ If yes: `npx --yes skills add -g amajorai/party.md -a claude-code -y`
 - **Codex mode:** invoke `/party --setup` immediately.
 - **Claude Code mode:** tell the user: **"Run `/reload-plugins` in this session, then run `/party --setup`."** Do not invoke it yourself.
 
-### 4. Install the `hunt` skill?
+### 4. Install the `fix` skill?
 
-Systematic bug-hunting workflow. Instruments the codebase with targeted logging, reads logs to confirm root cause, makes a surgical fix, and verifies clean. Great for debugging issues inside a sandbox.
+Systematic bug-fixing workflow. Instruments the codebase with targeted logging, reads logs to confirm root cause, makes a surgical fix, and verifies clean. Great for debugging issues inside a sandbox.
 
 ```bash
 npx --yes skills list 2>/dev/null | grep -qE '^fix$' && echo "ALREADY_INSTALLED" || echo "NOT_INSTALLED"
 ```
 
-Ask: **"Would you like me to install the `hunt` skill? It enables `/fix <bug description>` for systematic debugging — reproduce the bug inside a fresh sandbox to isolate state."**
+Ask: **"Would you like me to install the `fix` skill? It enables `/fix <bug description>` for systematic debugging — reproduce the bug inside a fresh sandbox to isolate state."**
 
 If yes: `npx --yes skills add -g amajorai/fix.md -a claude-code -y`
 
-- **Codex mode:** tell the user hunt is ready - invoke when needed.
+- **Codex mode:** tell the user fix is ready - invoke when needed.
 - **Claude Code mode:** tell the user: **"Run `/reload-plugins` in this session so `/fix` becomes available."** Do not invoke it yourself.
